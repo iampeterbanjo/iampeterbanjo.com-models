@@ -30,6 +30,11 @@
 		"email": "npm@iampeterbanjo.com",
 		"name": "Peter Banjo"
 	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run before-commit"
+		}
+	},
 	"dependencies": {
 		"@types/mongoose": "^5.5.34",
 		"mongoose": "^5.8.1",
